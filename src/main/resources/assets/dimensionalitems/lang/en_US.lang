@@ -67,6 +67,9 @@ tile.ObsidianLampOn.name=Obsidian Lamp
 tile.IObsidianLampOff.name=Inverted Obsidian Lamp
 tile.IObsidianLampOn.name=Inverted Obsidian Lamp
 tile.EnderLamp.name=Ender Lamp
+tile.QuartzLampOff.name=Quartz Lamp
+tile.QuartzLampOn.name=Quartz Lamp
+tile.LavaLamp.name=Lava Lamp
 //Ores\\
 tile.BlazingOre.name=Blazing Ore
 tile.EnderOre.name=Ender Ore
@@ -168,3 +171,4 @@ item.SpeedHelmet.name=Speed Helmet
 item.SpeedChestplate.name=Speed Chestplate
 item.SpeedLeggings.name=Speed Leggings
 item.SpeedBoots.name=Speed Boots
+item.Speed2Boots.name=Speed II Boots
