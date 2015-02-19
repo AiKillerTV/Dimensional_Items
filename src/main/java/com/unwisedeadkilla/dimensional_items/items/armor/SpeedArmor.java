@@ -31,7 +31,7 @@ public class SpeedArmor extends ItemArmor{
 	}
 	
 	public String getArmorTexture(ItemStack is, Entity entity, int slot, String Type){
-		if(is.getItem() == DIItems.armorSpeedHelmet || is.getItem() == DIItems.armorSpeedChestplate || is.getItem() == DIItems.armorSpeedBoots){
+		if(is.getItem() == DIItems.armorSpeedHelmet || is.getItem() == DIItems.armorSpeedChestplate || is.getItem() == DIItems.armorLeatherSpeedBoots){
 			return Dimensional_Items.modID + ":textures/models/armor/speed_layer_1.png";
 		}
 		
@@ -50,7 +50,7 @@ public class SpeedArmor extends ItemArmor{
 			return;
 		}else if(is.getItem() == DIItems.armorSpeedLeggings){
 			return;
-		}else if(is.getItem() == DIItems.armorSpeedBoots){
+		}else if(is.getItem() == DIItems.armorLeatherSpeedBoots){
 			is.addEnchantment(Enchantment.unbreaking, 10);
 			is.addEnchantment(Enchantment.featherFalling, 10);
 		}
@@ -71,7 +71,7 @@ public class SpeedArmor extends ItemArmor{
 			return;
 		}
 		
-		else if(is.getItem() == DIItems.armorSpeedBoots){
+		else if(is.getItem() == DIItems.armorLeatherSpeedBoots){
 			ep.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 0, 0));
 		}
 	}

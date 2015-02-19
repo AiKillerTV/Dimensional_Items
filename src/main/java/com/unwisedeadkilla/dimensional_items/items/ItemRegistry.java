@@ -9,6 +9,7 @@ import com.unwisedeadkilla.dimensional_items.Dimensional_Items;
 import com.unwisedeadkilla.dimensional_items.blocks.DIBlocks;
 import com.unwisedeadkilla.dimensional_items.blocks.crops.DICrops;
 import com.unwisedeadkilla.dimensional_items.items.armor.EnderArmor;
+import com.unwisedeadkilla.dimensional_items.items.armor.LSpeed2Armor;
 import com.unwisedeadkilla.dimensional_items.items.armor.LavaArmor;
 import com.unwisedeadkilla.dimensional_items.items.armor.ObsidianArmor;
 import com.unwisedeadkilla.dimensional_items.items.armor.QuartzArmor;
@@ -133,7 +134,8 @@ public class ItemRegistry {
 		armorObsidianChestplate = registerItem(new ObsidianArmor(DIArmorMaterial.ObsidianArmorMaterial, armorObsidianChestplateID, 1).setUnlocalizedName("ObsidianChestplate"));
 		armorObsidianLeggings = registerItem(new ObsidianArmor(DIArmorMaterial.ObsidianArmorMaterial, armorObsidianLeggingsID, 2).setUnlocalizedName("ObsidianLeggings"));
 		armorObsidianBoots = registerItem(new ObsidianArmor(DIArmorMaterial.ObsidianArmorMaterial, armorObsidianBootsID, 3).setUnlocalizedName("ObsidianBoots"));
-		armorSpeedBoots = registerItem(new SpeedArmor(DIArmorMaterial.SpeedArmorMaterial, armorSpeedBootsID, 3).setUnlocalizedName("SpeedBoots"));
+		armorLeatherSpeedBoots = registerItem(new SpeedArmor(DIArmorMaterial.SpeedArmorLeatherMaterial, armorSpeedBootsID, 3).setUnlocalizedName("SpeedBoots"));
+		armorLeatherSpeed2Boots = registerItem(new LSpeed2Armor(DIArmorMaterial.SpeedArmorLeatherMaterial, armorSpeed2BootsID, 3).setUnlocalizedName("Speed2Boots"));
 		
 		//Test
 		itemCompressedSpeedPotion = registerItem(new CSpeedPotion().setUnlocalizedName("CSpeedPotion"));

@@ -102,7 +102,11 @@ public class DIItems {
 	public static Item armorSpeedHelmet;
 	public static Item armorSpeedChestplate;
 	public static Item armorSpeedLeggings;
-	public static Item armorSpeedBoots;
+	public static Item armorLeatherSpeedBoots;
+	public static Item armorSpeed2Helmet;
+	public static Item armorSpeed2Chestplate;
+	public static Item armorSpeed2Leggings;
+	public static Item armorLeatherSpeed2Boots;
 	
 	//Armor ID
 	public static int armorLavaHelmetID;
@@ -125,6 +129,10 @@ public class DIItems {
 	public static int armorSpeedChestplateID;
 	public static int armorSpeedLeggingsID;
 	public static int armorSpeedBootsID;
+	public static int armorSpeed2HelmetID;
+	public static int armorSpeed2ChestplateID;
+	public static int armorSpeed2LeggingsID;
+	public static int armorSpeed2BootsID;
 	
 	//Test
 	public static Item itemCompressedSpeedPotion;
