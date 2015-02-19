@@ -30,13 +30,13 @@ public class CraftingRecipes {
 		 GameRegistry.addRecipe(new ItemStack(DIItems.crystalLavaIngot), new Object[]{"XYX", "YZY", "XYX", 'X', Items.lava_bucket, 'Y', Items.blaze_powder, 'Z', Items.emerald});
 		 GameRegistry.addShapelessRecipe(new ItemStack(DIItems.crystalLavaIngot, 9), DIBlocks.blockOfLava);
 		 GameRegistry.addRecipe(new ItemStack(DIBlocks.blockOfLava), new Object[]{"XXX", "XXX", "XXX", 'X', DIItems.crystalLavaIngot});
-		 GameRegistry.addRecipe(new ItemStack(Blocks.ice), new Object[]{"XX", "XX", 'X', DIItems.itemIceChunk});
+		 GameRegistry.addRecipe(new ItemStack(Blocks.packed_ice), new Object[]{"XX", "XX", 'X', DIItems.itemIceChunk});
 		 GameRegistry.addRecipe(new ItemStack(DIBlocks.blockOfEnder), new Object[]{"XXX", "XXX", "XXX", 'X', DIItems.crystalEnderIngot});
 		 GameRegistry.addShapelessRecipe(new ItemStack(DIItems.crystalEnderIngot, 9), DIBlocks.blockOfEnder);
 		 GameRegistry.addShapedRecipe(new ItemStack(DIItems.crystalEnderIngot), " X ", "XYX", " X ", 'X', DIItems.itemCompressedEnderPearl, 'Y', Items.diamond);
 		 GameRegistry.addShapedRecipe(new ItemStack(DIBlocks.blockOfEnder), " X ", "XYX", " X ", 'X', DIItems.itemDCompressedEnderPearl, 'Y', Blocks.diamond_block);
 		 GameRegistry.addShapedRecipe(new ItemStack(DIItems.itemChiselHead), " X ", "X X", 'X', Items.iron_ingot);
-		 GameRegistry.addRecipe(new ItemStack(DIItems.itemSpeedUpgrade), "XYX", "YZY", "XYX", 'X', Items.redstone, 'Y', Items.gold_ingot, 'Z', Items.sugar); //Might Not Keep
+		 //GameRegistry.addRecipe(new ItemStack(DIItems.itemSpeedUpgrade), "XYX", "YZY", "XYX", 'X', Items.redstone, 'Y', Items.gold_ingot, 'Z', Items.sugar); //Might Not Keep
 		 GameRegistry.addRecipe(new ItemStack(DIItems.itemSpeedUpgrade), "XYX", "YZY", "XYX", 'X',  new ItemStack (Items.potionitem, 1, 8194), 'Y', Items.gold_ingot, 'Z', Items.redstone); //If I Want Them Harder To Get
 		 GameRegistry.addRecipe(new ItemStack(DIBlocks.blockSpeedBlock), "XYX", "YZY", "XYX", 'X', Items.redstone, 'Y', DIItems.itemSpeedUpgrade, 'Z', Blocks.gold_block);
 		 GameRegistry.addRecipe(new ItemStack(DIBlocks.blockSpeedBlock, 9), "XYX", "YZY", "XYX", 'X', Blocks.redstone_block, 'Y', DIItems.itemCompressedSpeedUpgrade, 'Z', DIBlocks.blockCompressedGold);
@@ -129,7 +129,8 @@ public class CraftingRecipes {
 		 GameRegistry.addShapedRecipe(new ItemStack(DIItems.armorQuartzChestplate), "X X", "XXX", "XXX", 'X', Items.quartz);
 		 GameRegistry.addShapedRecipe(new ItemStack(DIItems.armorQuartzLeggings), "XXX", "X X", "X X", 'X', Items.quartz);
 		 GameRegistry.addShapedRecipe(new ItemStack(DIItems.armorQuartzBoots), "X X", "X X", 'X', Items.quartz);
-		 GameRegistry.addShapedRecipe(new ItemStack(DIItems.armorSpeedBoots), "XYX", "YZY", "XYX", 'X', Items.redstone, 'Y', DIItems.itemSpeedUpgrade, 'Z', Items.leather_boots);
+		 GameRegistry.addShapedRecipe(new ItemStack(DIItems.armorLeatherSpeedBoots), "XYX", "YZY", "XYX", 'X', Items.redstone, 'Y', DIItems.itemSpeedUpgrade, 'Z', Items.leather_boots);
+		 GameRegistry.addShapedRecipe(new ItemStack(DIItems.armorLeatherSpeed2Boots), "XYX", "YZY", "XYX", 'X', Blocks.redstone_block, 'Y', DIItems.itemCompressedSpeedUpgrade, 'Z', Items.leather_boots);
 		 
 		 //Food
 		 GameRegistry.addShapelessRecipe(new ItemStack(DIItems.itemEdibleSugar), Items.sugar);
