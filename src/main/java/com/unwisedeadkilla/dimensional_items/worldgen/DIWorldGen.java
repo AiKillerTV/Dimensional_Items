@@ -34,21 +34,21 @@ public class DIWorldGen implements IWorldGenerator{
 
 	private void generateMining(World world, Random random, int x, int z) {
 		
-		//this.addOreSpawn(DIBlocks.blockOres, 0, world, random, x, z, 16, 16, 2 + random.nextInt(3), 10, 5, 20);
 		this.addOreSpawn(DIBlocks.oreObsidianOre, 0, world, random, x, z, 16, 16, 2 + random.nextInt(3), 5, 5, 20);
 		this.addOreSpawn(DIBlocks.oreEnderOre, 0, world, random, x, z, 16, 16, 1 + random.nextInt(4), 4, 5, 15);
 		this.addOreSpawn(DIBlocks.oreBlazingOre, 0, world, random, x, z, 16, 16, 1 + random.nextInt(2), 4, 5, 25);
-		this.addOreSpawn(DIBlocks.oreQuartzOre, 0, world, random, x, z, 16, 16, 5 + random.nextInt(20), 4, 5, 30);
+		this.addOreSpawn(DIBlocks.oreQuartzOre, 0, world, random, x, z, 16, 16, 5 + random.nextInt(13), 4, 5, 30);
+		this.addOreSpawn(DIBlocks.oreIceOre, 0, world, random, x, z, 16, 16, 5 + random.nextInt(13), 4, 5, 20);
 		
 	}
 
 	private void generateSurface(World world, Random random, int x, int z) {
 		
-		//this.addOreSpawn(DIBlocks.blockOres, 0, world, random, x, z, 16, 16, 2 + random.nextInt(3), 5, 5, 20);
 		this.addOreSpawn(DIBlocks.oreObsidianOre, 0, world, random, x, z, 16, 16, 2 + random.nextInt(3), 4, 5, 20);
 		this.addOreSpawn(DIBlocks.oreEnderOre, 0, world, random, x, z, 16, 16, 1 + random.nextInt(4), 3, 5, 15);
 		this.addOreSpawn(DIBlocks.oreBlazingOre, 0, world, random, x, z, 16, 16, 1 + random.nextInt(3), 3, 5, 25);
 		this.addOreSpawn(DIBlocks.oreQuartzOre, 0, world, random, x, z, 16, 16, 5 + random.nextInt(10), 1, 5, 30);
+		this.addOreSpawn(DIBlocks.oreIceOre, 0, world, random, x, z, 16, 16, 5 + random.nextInt(10), 1, 5, 20);
 		
 	}
 
