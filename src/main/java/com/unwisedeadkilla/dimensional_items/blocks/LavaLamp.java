@@ -5,18 +5,17 @@ import com.unwisedeadkilla.dimensional_items.Dimensional_Items;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 
-public class EnderLamp extends Block{
+public class LavaLamp extends Block{
 
-	protected EnderLamp() {
+	protected LavaLamp() {
 		super(Material.redstoneLight);
 		
-		this.setLightLevel(1.0F);
 		this.setCreativeTab(Dimensional_Items.tabDimensionalItems);
-		this.setResistance(100F);
+		this.setBlockTextureName(Dimensional_Items.modID + ":LavaLamp");
 		this.setHardness(3F);
+		this.setResistance(100F);
 		this.setStepSound(soundTypeGlass);
 		this.setHarvestLevel("pickaxe", 0);
-		this.setBlockTextureName(Dimensional_Items.modID + ":EnderLamp");
 	}
 
 }

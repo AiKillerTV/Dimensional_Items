@@ -50,6 +50,9 @@ public class DIBlocks {
 	public static Block blockIOLampOff;
 	public static Block blockIOLampOn;
 	public static Block blockEnderLamp;
+	public static Block blockLavaLamp;
+	public static Block blockQuartzLampOff;
+	public static Block blockQuartzLampOn;
 	//Compressed
 	public static Block blockCompressedObsidian;
 	public static Block blockDCompressedObsidian;

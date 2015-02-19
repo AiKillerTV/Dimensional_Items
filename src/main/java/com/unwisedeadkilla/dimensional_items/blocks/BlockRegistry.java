@@ -66,7 +66,7 @@ public class BlockRegistry {
 		//IceBiome
 		blockIceStone = registerBlock(new IceStone(Material.rock, false).setBlockName("IceStone")); //Might Use Ice Instead
 		blockIceBrick = registerBlock(new IceBrick(Material.rock, false).setBlockName("IceBrick"));
-		blockIceCobble = registerBlock(new IceCobble().setBlockName("IceCobble"));
+		blockIceCobble = registerBlock(new IceCobble(false).setBlockName("IceCobble"));
 		
 		//Blocks Of Crystals/Ingots
 		blockOfLava = registerBlock(new BlockOfLava().setBlockName("BlockOfLava"));
@@ -77,11 +77,16 @@ public class BlockRegistry {
 		blockStainedGlass = new StainedGlass(Material.glass, false).setBlockName("Stained");
 		GameRegistry.registerBlock(blockStainedGlass, ItemBlockStainedGlass.class, "Stained");
 		blockSpeedBlock = registerBlock(new SpeedBlock().setBlockName("SpeedBlock"));
+		
+		//Lamp
 		blockObsidianLampOff = registerBlock(new ObsidianLamp(false).setBlockName("ObsidianLampOff").setCreativeTab(Dimensional_Items.tabDimensionalItems));
 		blockObsidianLampOn = registerBlock(new ObsidianLamp(true).setBlockName("ObsidianLampOn"));
 		blockIOLampOff = registerBlock(new IObsidianLamp(false).setBlockName("IObsidianLampOff"));
 		blockIOLampOn = registerBlock(new IObsidianLamp(true).setBlockName("IObsidianLampOn").setCreativeTab(Dimensional_Items.tabDimensionalItems));
 		blockEnderLamp = registerBlock(new EnderLamp().setBlockName("EnderLamp"));
+		blockLavaLamp = registerBlock(new LavaLamp().setBlockName("LavaLamp"));
+		blockQuartzLampOff = registerBlock(new QuartzLamp(false).setBlockName("QuartzLampOff").setCreativeTab(Dimensional_Items.tabDimensionalItems));
+		blockQuartzLampOn = registerBlock(new QuartzLamp(true).setBlockName("QuartzLampOn"));
 		
 		//Compressed
 		blockCompressedObsidian = registerBlock(new CObsidian().setBlockName("CObsidian"));
